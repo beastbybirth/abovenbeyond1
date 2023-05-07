@@ -1,0 +1,95 @@
+/* Global styles */
+
+body {
+    padding-top: 5rem;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+  }
+  
+  /* Navbar styles */
+  
+  .navbar {
+    background-color: #4f5255;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #efefde;
+  }
+  
+  .nav-link {
+    font-size: 2rem;
+    color: #e4e4e4;
+  }
+  
+  /* Jumbotron styles */
+  
+  .jumbotron {
+    background-color: #f5deb3;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .display-3 {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #343a40;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+
+  
+  /* Card styles */
+  
+  .card {
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-header {
+    background-color: #f5deb3;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .card-body p {
+    font-size: 2rem;
+    color: #343a40;
+  }
+  
+  /* Media query for smaller screens */
+  
+  @media (max-width: 767.98px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .nav-link {
+      font-size: 1rem;
+    }
+  
+    .display-3 {
+      font-size: 3rem;
+      color: #780e0e;
+    }
+  
+    .lead {
+      font-size: 1.2rem;
+      color: #bf22ac5d;
+    }
+  
+    .card-header {
+      font-size: 1.2rem;
+    }
+  
+    .card-body p {
+      font-size: 1rem;
+    }
+  }
+  
